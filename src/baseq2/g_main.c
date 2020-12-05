@@ -312,7 +312,7 @@ void EndDMLevel(void)
 {
     edict_t     *ent;
     char *s, *t, *f;
-    static const char *seps = " ,\n\r";
+    static const char *seps = " ,\n";
 
     // stay on same level flag
     if ((int)dmflags->value & DF_SAME_LEVEL) {
