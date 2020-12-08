@@ -1769,6 +1769,16 @@ static void Cmd_EchoEx_f(void)
 
 /*
 ============
+Cmd_VoteMap_f
+============
+*/
+static void Cmd_VoteMap_f(void)
+{
+    Com_Printf("Hiciste la primera wea!!\n");
+}
+
+/*
+============
 Cmd_List_f
 ============
 */
@@ -1878,6 +1888,7 @@ static const cmdreg_t c_cmd[] = {
     { "trigger", Cmd_Trigger_f },
     { "untrigger", Cmd_UnTrigger_f },
     { "if", Cmd_If_f },
+    { "votemap", Cmd_VoteMap_f },
 
     { NULL }
 };
